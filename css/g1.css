@@ -2,7 +2,21 @@ body{
     background: #ccc;
 }
 
-.g1logo{
+header{
     background: red;
-    color: black;
+}
+
+nav ul{
+    float: left;
+    list-style: none;
+    
+}
+
+.apresentacao{
+    text-align: center;
+}
+
+.g1logo{
+    border: 1px solid yellow;
+    
 }
