@@ -1,23 +1,24 @@
 
 html{
-width: 100%;
+    width: 100%;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
 }
 
 body{
-width: 100%;
+    width: 100%;
     background: #ccc;
     position: static;
 }
 
 header{
-
+    position: fixed;
+    height: auto;
     width: 100%;
+    margin-top: -2em;
     background: red;
 }
 
 a legend{
-
     color: #000000;
 }
 
@@ -28,24 +29,25 @@ hr{
 .menu{
 
     margin: 0;
-    padding: 1.6em 0 0 0.5em;
+    padding: 1.7em 0 0 0.5em;
     float: left;
     text-transform: uppercase;
     color: white;
 }
 
 .top-header{
-width: 100%;
+    width: 100%;
     text-align: center;
+    padding-top: 1em;
 }
 .top-header-logo{
 
     margin: 1em;
-    padding-right: 8em;
+    padding-right: 11em;
     height: 3em;
 }
 .top-nav ul{
-width: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -80,6 +82,7 @@ width: 100%;
     width: 100%;
     text-align: center;
     font-size: 1.5em;
+    padding-top: 4em;
     margin-top: 1em;
     margin-bottom: -2.5em;
 }
@@ -217,6 +220,7 @@ width: 100%;
 .btn{
     display: inline-block;
     padding: .9em 2.5em;
+    margin-left: 2em;
     background: red;
     border-radius: 5px;
     color: white;
