@@ -203,9 +203,16 @@ width: 100%;
 
 .footer-desc-n-links{
     margin-right: 2em;
-    margin-top: -1em;
+    margin-top: 0;
     margin-bottom: -1.5em;
+    color: white;
 }
+
+.footer-desc-n-links a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .btn{
     display: inline-block;
